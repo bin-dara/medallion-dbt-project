@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: MEDALLION_DB
+    schema: BRONZE
+    tables:
+      - name: customers_raw
+      - name: products_raw
+      - name: orders_raw
+      - name: order_items_raw
+      - name: categories_raw
